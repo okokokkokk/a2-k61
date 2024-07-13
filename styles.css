@@ -1,21 +1,20 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f8dede;
+    background-color: #d4ff00;
 }
 
 ::selection {
-    background-color: #00f2ff;
+    background-color: #d9ff00;
 }
 
 .menu {
     width: 100%;
-    height: auto;
     background-color: #04ff00;
     border-top: 1px solid #ff0000;
     border-bottom: 1px solid #ff0000;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
@@ -24,7 +23,6 @@ body {
 .text {
     display: flex;
     align-items: center;
-    margin-right: auto;
 }
 
 #logo-a2 {
@@ -73,9 +71,8 @@ body {
     background-color: rgb(0, 225, 255);
     border-radius: 15px;
     margin: 0 auto;
-    width: fit-content;
-    margin-left: 9%;
     border: 2px #000 solid;
+    margin-left: 8%;
 }
 
 .tieude:hover {
@@ -83,7 +80,6 @@ body {
 }
 
 .navigation {
-    margin-left: auto;
     display: flex;
     align-items: center;
 }
@@ -116,6 +112,21 @@ body {
 .navigation a:hover {
     background-color: rgb(8, 0, 255);
     border-radius: 15px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.danhsach, .nen, .newsfeed {
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #000;
 }
 
 .content {
