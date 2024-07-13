@@ -167,7 +167,7 @@ body {
 }
 
 .nen {
-    background-image: url(background-a2.jpg);
+    background-image: url(/images/background-a2.jpg);
     background-size: cover;
     flex: 3;
 }
