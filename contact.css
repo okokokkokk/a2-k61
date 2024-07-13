@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(./assets/hocsinha2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::selection {
+    background-color: #d9ff00;
+}
+
+.menu {
+    width: 100%;
+    background-color: #04ff00;
+    border-top: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+#logo-a2 {
+    width: 52px;
+    height: 52px;
+}
+
+.input-container {
+    position: relative;
+    width: 245px; 
+    height: 50px; 
+    margin-left: 10px;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px; 
+    height: 25px;
+}
+
+#timkiem {
+    width: 100%;
+    height: 100%;
+    padding: 0 12px 0 40px; 
+    border: none;
+    border-radius: 25px;
+    background-color: #00f2ff;
+    border: #000000 1px solid;
+    color: #060000;
+    text-align: left; 
+    font-size: 19px; 
+}
+
+#timkiem::placeholder {
+    color: #000000;
+}
+
+.tieude {
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgb(0, 225, 255);
+    border-radius: 15px;
+    margin: 0 auto;
+    border: 2px #000 solid;
+    margin-left: 8.5%;
+}
+
+.tieude:hover {
+    background-color: #ff9d00;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin-left: 30px; 
+    background-color: rgb(238, 57, 57);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.navigation li:hover {
+    background-color: #2200ff;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+    background-color: rgb(8, 0, 255);
+    border-radius: 15px;
+}
+
+/* --CONTENT-- */
+.content {
+    background-color: #00f2ff;
+    box-sizing: border-box;
+    border: 2px #000 solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px;
+}
+
+.contact-info h2 {
+    text-align: center;
+    background-color: #04ff00;
+    border: #000 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.box {
+    background-color: #f8dede;
+    padding: 10px;
+    margin: 10px;
+    border: 2px #000 solid;
+    border-radius: 10px;
+}
+
+.box a {
+    color: #2200ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .input-container {
+        width: 200px;
+        height: 40px;
+    }
+
+    #timkiem {
+        font-size: 16px;
+    }
+
+    .tieude {
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation li {
+        margin-left: 0;
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+
+    .content {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .contact-info h2 {
+        font-size: 24px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-container {
+        width: 100px;
+        height: 35px;
+    }
+
+    #timkiem {
+        font-size: 14px;
+    }
+
+    .tieude {
+        font-size: 16px;
+        padding: 8px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .navigation li {
+        padding: 5px;
+    }
+
+    .content {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .contact-info h2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
