@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #12ddec;
 }
 
 ::selection {
@@ -117,4 +117,39 @@ body {
 .navigation a:hover {
     background-color: rgb(8, 0, 255);
     border-radius: 15px;
+}
+
+.contain {
+    background-color: #898383;
+    width: 80%;
+    height: max-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: #000 2px solid;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content {
+    background-color: #ffffff;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: #000 solid 2px;
+    border-radius: 10px;
+}
+
+.content h2 {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.hinhanh-namdelta {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }

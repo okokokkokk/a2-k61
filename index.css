@@ -281,6 +281,9 @@ footer {
     width: 100%;
 }
 
+.highlight {
+    background-color: yellow;
+}
 
 @media (max-width: 768px) {
     .menu {

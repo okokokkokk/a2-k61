@@ -150,6 +150,10 @@ body {
     color: #2200ff;
 }
 
+.highlight {
+    background-color: yellow;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .input-container {

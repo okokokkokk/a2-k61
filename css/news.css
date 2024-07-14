@@ -8,6 +8,10 @@ body {
     background-color: #00ffff;
 }
 
+.highlight {
+    background-color: rgb(227, 30, 201);
+}
+
 .menu {
     width: 100%;
     background-color: #04ff00;
@@ -119,7 +123,7 @@ body {
     width: 90%;
     background-color: #00aeff;
     background-image:
-    url(https://png.pngtree.com/thumb_back/fh260/background/20240327/pngtree-newspapers-and-magazines-on-old-wood-background-toned-image-image_15645394.jpg);
+    url(https://media.istockphoto.com/id/1337229517/vi/vec-to/gi%E1%BA%A5y-b%C3%A1o-grunge-c%E1%BB%95-%C4%91i%E1%BB%83n-c%E1%BB%95-%C4%91i%E1%BB%83n-c%C5%A9-k%E1%BA%BFt-c%E1%BA%A5u-n%E1%BB%81n.jpg?s=612x612&w=0&k=20&c=_3uvDwj--qhrtebn9t21jLb3ojUbu-ENOxnNQiepUko=);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
