@@ -183,26 +183,18 @@ a {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+    
     .text {
-        width: 100%;
         justify-content: center;
         margin-bottom: 10px;
     }
 
-    .tieude {
+    .navigation {
+        justify-content: center;
         width: 100%;
-        margin-left: 0;
-        margin-bottom: 10px;
-    }
-
-    .navigation ul {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .navigation li {
-        margin: 10px 0;
     }
 
     .contain {

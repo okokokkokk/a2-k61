@@ -175,3 +175,19 @@ body {
 p {
     font-family: "Noto Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Arial", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
 }
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+    
+    .text {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .navigation {
+        justify-content: center;
+        width: 100%;
+    }
+}

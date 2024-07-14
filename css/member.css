@@ -119,3 +119,19 @@ body {
 .navigation a:hover {
     border-radius: 15px;
 }
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+    
+    .text {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .navigation {
+        justify-content: center;
+        width: 100%;
+    }
+}
