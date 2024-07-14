@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #d4ff00;
+    background-color: #CD919E;
 }
 
 ::selection {
@@ -10,7 +10,7 @@ body {
 
 .menu {
     width: 100%;
-    background-color: #04ff00;
+    background-color: #ffe4e1;
     border-top: 1px solid #ff0000;
     border-bottom: 1px solid #ff0000;
     display: flex;
@@ -52,11 +52,12 @@ body {
     padding: 0 12px 0 40px; 
     border: none;
     border-radius: 25px;
-    background-color: #00f2ff;
-    border: #000000 1px solid;
+    background-color: pink;
+    border: #000000 2px solid;
     color: #060000;
     text-align: left; 
     font-size: 19px; 
+
 }
 
 #timkiem::placeholder {
@@ -64,19 +65,21 @@ body {
 }
 
 .tieude {
-    color: #000000;
+    color: rgb(82, 78, 78);
     text-align: center;
     padding: 15px;
     box-sizing: border-box;
-    background-color: rgb(0, 225, 255);
+    background-color: pink;
     border-radius: 15px;
     margin: 0 auto;
     border: 2px #000 solid;
     margin-left: 8%;
+
 }
 
 .tieude:hover {
-    background-color: #ff9d00;
+    background-color: #f049df;
+    color: #000;
 }
 
 .navigation {
@@ -89,28 +92,31 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 
 .navigation li {
     margin-left: 30px; 
-    background-color: rgb(238, 57, 57);
+    background-color: pink;
     border-radius: 15px;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 9px;
+    border: 2px #000 solid;
+    text-align: center;
 }
 
 .navigation li:hover {
-    background-color: #2200ff;
+    background-color: #e95bec;
+    
 }
 
 .navigation a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000;
     transition: background-color 0.3s ease;
 }
 
 .navigation a:hover {
-    background-color: rgb(8, 0, 255);
     border-radius: 15px;
 }
 
@@ -151,8 +157,8 @@ body {
 }
 
 .lst {
-    background-color: #078dfb;
-    color: #fafafa;
+    background-color: #EED5D2;
+    color: #000;
     text-align: center;
     padding: 10px;
     border-radius: 15px;
@@ -160,40 +166,42 @@ body {
     font-size: 18px;
     border: 2px #000 solid;
     text-shadow: 
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000;
+    -1px -1px 0 #fff0f5,  
+     1px -1px 0 #fff0f5,
+    -1px  1px 0 #fff0f5,
+     1px  1px 0 #fff0f5;
 }
 
 .box {
-    background-color: #fba107;
+    background-color: #EEE0E5;
     margin: 10px;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
     border: 2px solid #000;
     color: rgb(0, 0, 0);
+    
+}
 
+.box a {
+    color: #2200ff;
 }
 
 .nen {
-    background-image: 
-    url(./assets/background-a2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #efbec9;
     flex: 3;
 }
 
 .introduction {
-    background-color: #04bbf3;
+    background-color: #FFE4E1;
     padding: 20px;
     border-radius: 10px;
+    border: 2px #000 solid;
 }
 
 .h22 {
     text-align: center;
-    background-color: #00ff33;
+    background-color: pink;
     padding: 10px;
     border-radius: 20px;
     border: 2px solid #000;
@@ -220,11 +228,14 @@ body {
 
 .paragraph {
     font-size: 20px;
+    color: rgb(0, 0, 0);
+    
+
 }
 
 .mucluc {
     text-align: center;
-    background-color: #08f8ec;
+    background-color: #EEB4B4;
     padding: 10px;
     border-radius: 10px;
     border: #000 2px solid;
@@ -235,27 +246,27 @@ body {
 }
 
 .newsfeed {
-    background-color: rgb(243, 243, 183);
+    background-color: #dbaeae;
     flex: 1;
     min-width: 250px;
 }
 
 #tintuc {
-    background-color: #078dfb;
+    background-color: #EED5D2;
     text-align: center;
     padding: 5px;
     border-radius: 15px;
     border: 2px solid #000;
-    color: white;
+    color: rgb(0, 0, 0);
     text-shadow: 
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000;
+    -1px -1px 0 #ffffff,  
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
 }
 
 .news {
-    background-color: greenyellow;
+    background-color: #ffe4e1;
     margin: 10px;
     text-align: center;
     border-radius: 10px;
@@ -272,13 +283,14 @@ body {
 }
 
 footer {
-    background-color: #76d81a; 
+    background-color: #f6beb8; 
     color: #000000;
     text-align: center;
     padding: 8px;
     position: fixed; 
     bottom: 0; 
     width: 100%;
+    border: 2px #000 solid;
 }
 
 .highlight {
