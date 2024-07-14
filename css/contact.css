@@ -1,7 +1,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #d4ff00;
+    background-image: url(../assets/hocsinha2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ::selection {
@@ -18,7 +20,6 @@ body {
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
-    flex-wrap: wrap;
 }
 
 .text {
@@ -73,7 +74,7 @@ body {
     border-radius: 15px;
     margin: 0 auto;
     border: 2px #000 solid;
-    margin-left: 8%;
+    margin-left: 8.5%;
 }
 
 .tieude:hover {
@@ -115,102 +116,108 @@ body {
     border-radius: 15px;
 }
 
-.contain {
-    width: 90%;
-    background-color: #00aeff;
-    margin: 0 auto;
-    height: 100%;
-    margin-top: 20px;
-    border: #000 solid 2px;
-    border-radius: 5px;
-}
-
-.first-line {
-    background-color: #04ff00;
-    text-align: center;
-    padding: 15px;
-    width: 60%;
+/* --CONTENT-- */
+.content {
+    background-color: #00f2ff;
+    box-sizing: border-box;
     border: 2px #000 solid;
     border-radius: 10px;
     margin: 0 auto;
-    box-sizing: border-box;
     margin-top: 20px;
-    font-size: 20px;
+    width: 50%;
+    padding: 20px;
 }
 
-.content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: stretch;
+.contact-info h2 {
+    text-align: center;
+    background-color: #04ff00;
+    border: #000 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: -10px;
 }
 
 .box {
-    width: 30%;
-    margin: 15px;
-    background-color: rgb(245, 241, 3);
-    border: #000 2px solid;
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.hinhanh {
-    width: 100%;
-    height: auto;
+    background-color: #f8dede;
+    padding: 10px;
+    margin: 10px;
     border: 2px #000 solid;
     border-radius: 10px;
-    box-sizing: border-box;
-    margin-bottom: 15px;
 }
 
-.box p {
-    flex-grow: 1;
-    text-align: center;
+.box a {
     color: #2200ff;
 }
 
-/* Responsive Design */
+/* Responsive */
 @media (max-width: 768px) {
-    .text {
-        width: 100%;
-        justify-content: center;
-        margin-bottom: 10px;
+    .input-container {
+        width: 200px;
+        height: 40px;
+    }
+
+    #timkiem {
+        font-size: 16px;
     }
 
     .tieude {
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: 10px;
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .navigation ul {
         flex-direction: column;
         align-items: center;
-        width: 100%;
     }
 
     .navigation li {
-        margin: 10px 0;
-    }
-
-    .contain {
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .first-line {
-        width: 90%;
+        margin-left: 0;
+        margin-bottom: 10px;
+        padding: 8px;
     }
 
     .content {
-        flex-direction: column;
-        align-items: center;
+        width: 80%;
+        padding: 10px;
     }
 
-    .box {
+    .contact-info h2 {
+        font-size: 24px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-container {
+        width: 100px;
+        height: 35px;
+    }
+
+    #timkiem {
+        font-size: 14px;
+    }
+
+    .tieude {
+        font-size: 16px;
+        padding: 8px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .navigation li {
+        padding: 5px;
+    }
+
+    .content {
         width: 90%;
+        padding: 10px;
+    }
+
+    .contact-info h2 {
+        font-size: 20px;
+        padding: 10px;
     }
 }
