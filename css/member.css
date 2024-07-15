@@ -28,6 +28,8 @@ body {
 #logo-a2 {
     width: 52px;
     height: 52px;
+    border: 3px rgb(255, 0, 102) solid;
+    border-radius: 100%;
 }
 
 .input-container {

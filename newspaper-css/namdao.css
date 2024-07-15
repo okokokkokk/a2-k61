@@ -155,18 +155,19 @@ body {
     font-size: 35px;
 }
 
-.hinhanh-namdelta {
+.hinhanh-namdao {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
 
-.hinhanh-namdelta-truyna {
+.hinhanhthe-namdao {
     width: 80%;
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;
     margin-top: 40px;
+    
 }
 
 .truyna {
