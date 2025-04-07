@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url(../assets/hocsinha2.jpg);
+    background-color: rgb(245, 160, 160);
+    /* background-image: url(../assets/hocsinha2.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
 }

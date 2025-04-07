@@ -126,6 +126,7 @@ body {
     border-radius: 15px;
 }
 
+
 @media (max-width: 740px) {
     .menu {
         flex-direction: column;

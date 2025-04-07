@@ -82,6 +82,7 @@ body {
 .tieude:hover {
     background-color: #f049df;
     color: #000;
+    transform: scale(1.05);
 }
 
 .navigation {
@@ -109,13 +110,12 @@ body {
 
 .navigation li:hover {
     background-color: #e95bec;
-    
+    transform: scale(1.09);
 }
 
 .navigation a {
     text-decoration: none;
     color: #000;
-    transition: background-color 0.3s ease;
 }
 
 .navigation a:hover {
@@ -187,6 +187,37 @@ body {
 
 .box a {
     color: #2200ff;
+}
+
+/* BUTTON STYLE */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80%; /* Đảm bảo nút không quá nhỏ */
+    height: 50px; 
+    padding: 5px 20px;
+    background-color: #f8dede;
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: #2200ff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #ffbaba;
+    transform: scale(1.05);
+}
+.name {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .nen {
@@ -319,6 +350,7 @@ footer {
         width: 100%;
         margin: 10px;
         margin-right: 10%;
+        
     }
 
     .content .nen {
